@@ -60,7 +60,7 @@ public class Recognizer extends JFrame implements ActionListener {
     private List<String> labels;
 
     public Recognizer() {
-        setTitle("Object Recognition - Emaraic.com");
+        setTitle("Pet Recognition - RFXLab.com");
         setSize(500, 500);
         table = new Table();
         
@@ -97,10 +97,7 @@ public class Recognizer extends JFrame implements ActionListener {
         table.addCell(predict).colspan(2);
         table.row();
         table.addCell(result).width(300).colspan(2);
-        table.row();
-        table.addCell(new JLabel("By: Taha Emara")).center().padTop(30).colspan(2);
-       table.row();
-        table.addCell(new JLabel("Email: taha@emaraic.com")).center().colspan(2);
+        table.row();        
        
         setLocationRelativeTo(null);
 
