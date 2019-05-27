@@ -61,7 +61,7 @@ public class Recognizer extends JFrame implements ActionListener {
 
     public Recognizer() {
         setTitle("Pet Recognition - RFXLab.com");
-        setSize(500, 500);
+        setSize(1280, 880);
         table = new Table();
         
         predict = new JButton("Predict");
